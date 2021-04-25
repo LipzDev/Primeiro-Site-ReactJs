@@ -1,0 +1,26 @@
+.logo a {
+  color: black;
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.logo {
+  z-index: 999;
+}
+
+.logo::before {
+  z-index: -1;
+  content: '';
+  background: white;
+  width: 30%;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .logo::before {
+    width: 50%;
+  }
+}

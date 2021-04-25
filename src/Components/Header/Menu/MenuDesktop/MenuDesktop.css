@@ -1,0 +1,44 @@
+.menu__desktop ul {
+  display: flex;
+}
+.menu__desktop li + li {
+  margin-left: 30px;
+}
+.menu__desktop a {
+  color: white;
+  font-size: 2rem;
+  transition: 0.3s;
+  position: relative;
+}
+
+.menu__desktop a:hover {
+  color: orangered;
+}
+
+.menu__desktop a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+
+  width: 0%;
+  height: 2px;
+  background: orangered;
+  opacity: 0;
+  transition: 0.3s;
+  visibility: hidden;
+  border-radius: 4px;
+}
+
+.menu__desktop a:hover::after {
+  width: 100%;
+  opacity: 1;
+  transition: 0.3s;
+  visibility: visible;
+}
+
+@media screen and (max-width: 900px) {
+  .menu__desktop {
+    display: none;
+  }
+}

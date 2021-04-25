@@ -1,0 +1,44 @@
+.menu__mobile {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .menu__mobile {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    background: black;
+    width: 50%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transform: translate3d(0, -200rem, 0);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+  }
+
+  .menu__actived {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .menu__mobile li + li {
+    margin-top: 30px;
+  }
+  .menu__mobile a {
+    color: white;
+    font-size: 2rem;
+    transition: 0.3s;
+  }
+
+  .menu__mobile a:hover {
+    color: orangered;
+  }
+}
