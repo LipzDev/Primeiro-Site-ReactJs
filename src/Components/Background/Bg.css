@@ -1,7 +1,7 @@
 .background {
   background-image: url(../../Assets/Images/img1.jpg);
   width: 100%;
-  height: 80vh;
+  height: 100vh;
 
   background-position: top;
   background-repeat: no-repeat;
@@ -13,6 +13,20 @@
   align-items: center;
   justify-content: flex-start;
   overflow: hidden;
+  position: relative;
+}
+
+.background::after {
+  content: '';
+  position: absolute;
+  background-image: url(../../Assets/Images/wave.svg);
+  width: 100%;
+  height: 50%;
+  bottom: -5rem;
+  left: 0;
+
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .background__item {
@@ -39,6 +53,17 @@
 
   .background__item h2 {
     font-size: 3rem;
+  }
+
+  .background {
+    height: 80vh;
+    position: relative;
+  }
+
+  .background::after {
+    width: 100%;
+    height: 25%;
+    bottom: 0;
   }
 }
 

@@ -6,13 +6,13 @@ const MenuDesktop = () => {
     <nav className="menu__desktop">
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#extra">Extra</a>
         </li>
       </ul>
     </nav>

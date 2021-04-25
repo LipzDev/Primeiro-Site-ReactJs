@@ -11,10 +11,6 @@
   position: relative;
 }
 
-.menu__desktop a:hover {
-  color: #bb97a5;
-}
-
 .menu__desktop a::after {
   content: '';
   position: absolute;
@@ -22,8 +18,8 @@
   bottom: -5px;
 
   width: 0%;
-  height: 2px;
-  background: #bb97a5;
+  height: 1px;
+  background: white;
   opacity: 0;
   transition: 0.3s;
   visibility: hidden;

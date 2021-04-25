@@ -13,7 +13,7 @@ const MenuMobile = () => {
           <a href="#sobre">About</a>
         </li>
         <li>
-          <a href="#contato">Contact</a>
+          <a href="#extra">Extra</a>
         </li>
       </ul>
     </nav>

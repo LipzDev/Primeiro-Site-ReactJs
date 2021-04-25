@@ -9,7 +9,7 @@
     left: 0;
     top: 0;
 
-    background: black;
+    background: #313131;
     width: 50%;
     height: 100vh;
 
@@ -40,6 +40,6 @@
   }
 
   .menu__mobile a:hover {
-    color: #bb97a5;
+    color: #ccc;
   }
 }
