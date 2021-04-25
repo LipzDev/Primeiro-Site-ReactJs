@@ -12,7 +12,7 @@
 }
 
 .menu__desktop a:hover {
-  color: orangered;
+  color: #bb97a5;
 }
 
 .menu__desktop a::after {
@@ -23,7 +23,7 @@
 
   width: 0%;
   height: 2px;
-  background: orangered;
+  background: #bb97a5;
   opacity: 0;
   transition: 0.3s;
   visibility: hidden;

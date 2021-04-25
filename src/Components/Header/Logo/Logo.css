@@ -17,6 +17,7 @@
   position: absolute;
   left: 0;
   top: 0;
+  transition: 0.3s;
 }
 
 @media screen and (max-width: 900px) {

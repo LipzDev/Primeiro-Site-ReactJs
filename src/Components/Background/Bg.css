@@ -8,4 +8,46 @@
   background-size: cover;
 
   background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.background__item {
+  transition: 0.3s;
+}
+
+.background__item h1 {
+  color: white;
+  font-size: 10rem;
+  display: inline-block;
+}
+
+.background__item h2 {
+  text-align: right;
+  color: white;
+  font-weight: 300;
+  font-size: 5rem;
+}
+
+@media screen and (max-width: 900px) {
+  .background__item h1 {
+    font-size: 7rem;
+  }
+
+  .background__item h2 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .background__item h1 {
+    font-size: 5rem;
+  }
+
+  .background__item h2 {
+    font-size: 2rem;
+  }
 }
