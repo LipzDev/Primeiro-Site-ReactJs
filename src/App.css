@@ -23,3 +23,9 @@ body {
   margin: 0 auto;
   width: 95%;
 }
+
+.container-two {
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 95%;
+}

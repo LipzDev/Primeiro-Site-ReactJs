@@ -5,10 +5,15 @@ const Bg = () => {
   const [pos, setPos] = React.useState(0);
 
   React.useEffect(() => {
-    window.addEventListener('scroll', () => {
+    function bgText() {
       setPos(window.scrollY);
-    });
-  }, [pos]);
+    }
+    window.addEventListener('scroll', bgText);
+
+    return () => {
+      window.removeEventListener('scroll', bgText);
+    };
+  }, []);
 
   return (
     <section className="background">

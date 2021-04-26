@@ -68,6 +68,10 @@
 }
 
 @media screen and (max-width: 450px) {
+  .background {
+    height: 90vh;
+  }
+
   .background__item h1 {
     font-size: 5rem;
   }
