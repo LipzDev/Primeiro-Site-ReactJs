@@ -14,7 +14,7 @@
   opacity: 0;
   visibility: hidden;
   transition: 0.7s;
-  transform: translate(0, -70px);
+  transform: translate(70px, 0);
   z-index: 995;
   color: white;
 }
@@ -58,5 +58,34 @@
 
   from {
     transform: translate(-200px, 0);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .more {
+    height: auto;
+  }
+  .more__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .more__text {
+    margin-bottom: 40px;
+  }
+
+  .more__text h3 {
+    font-size: 3rem;
+  }
+
+  .more__img {
+    margin-right: 0;
+    order: 1;
+    text-align: center;
+    margin-bottom: 10rem;
+  }
+
+  .more__img img {
+    max-width: 57%;
   }
 }
