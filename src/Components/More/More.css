@@ -1,0 +1,62 @@
+.more {
+  background: #212121;
+  height: 40vh;
+  width: 100%;
+}
+
+.more__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.more__text {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.7s;
+  transform: translate(0, -70px);
+  z-index: 995;
+  color: white;
+}
+
+.more__text-active {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, 0);
+}
+
+.more__text h3 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.more__text p {
+  font-size: 2rem;
+}
+
+.more__img {
+  opacity: 0;
+  transition: 0.5s;
+  z-index: 995;
+  margin-right: 12rem;
+}
+
+.more__img img {
+  max-width: 120%;
+}
+
+.img-animation {
+  animation: animaIconJs 2s;
+  opacity: 1;
+}
+
+@keyframes animaIconJs {
+  to {
+    transform: translate(0, 0);
+  }
+
+  from {
+    transform: translate(-200px, 0);
+  }
+}
