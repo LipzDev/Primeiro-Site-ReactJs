@@ -1,0 +1,15 @@
+.footer {
+  background: #3f3c59;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer__item a {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.footer__item span {
+  font-weight: 500;
+  color: white;
+}
