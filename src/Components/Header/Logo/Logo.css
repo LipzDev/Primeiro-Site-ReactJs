@@ -21,7 +21,12 @@
 }
 
 @media screen and (max-width: 900px) {
+  .logo a {
+    font-size: 3.5rem;
+  }
+
   .logo::before {
     width: 50%;
+    height: 100%;
   }
 }

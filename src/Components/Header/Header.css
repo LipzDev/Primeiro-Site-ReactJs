@@ -4,12 +4,7 @@
   width: 100%;
   background: #212121;
   z-index: 999;
-  transform: translate(0, -10px);
   transition: 0.5s;
-}
-
-.header__modular-actived {
-  transform: translate(0, 0);
 }
 
 .header__item {

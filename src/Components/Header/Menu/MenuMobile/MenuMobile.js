@@ -1,19 +1,26 @@
 import React from 'react';
 import './MenuMobile.css';
 import { OpenMenu } from '../IconHamburguer/Icon';
+import { Link } from 'react-scroll';
 
 const MenuMobile = () => {
   return (
     <nav className="menu__mobile">
-      <ul onClick={OpenMenu}>
+      <ul>
         <li>
-          <a href="#home">Home</a>
+          <Link onClick={OpenMenu} to="section1" smooth={true} duration={1000}>
+            Home
+          </Link>
         </li>
         <li>
-          <a href="#sobre">About</a>
+          <Link onClick={OpenMenu} to="section2" smooth={true} duration={1000}>
+            About
+          </Link>
         </li>
         <li>
-          <a href="#extra">Extra</a>
+          <Link onClick={OpenMenu} to="section3" smooth={true} duration={1000}>
+            Extra
+          </Link>
         </li>
       </ul>
     </nav>

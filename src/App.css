@@ -29,3 +29,13 @@ body {
   margin: 0 auto;
   width: 95%;
 }
+
+@media screen and (max-width: 900px) {
+  .container-two {
+    width: 85%;
+  }
+
+  p {
+    text-align: justify;
+  }
+}

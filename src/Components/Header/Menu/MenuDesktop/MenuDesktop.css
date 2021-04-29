@@ -9,6 +9,7 @@
   font-size: 2rem;
   transition: 0.3s;
   position: relative;
+  cursor: pointer;
 }
 
 .menu__desktop a::after {

@@ -16,7 +16,7 @@ const Bg = () => {
   }, []);
 
   return (
-    <section className="background">
+    <section className="background" id="section1">
       <div className="container">
         <div
           style={pos > 350 ? { opacity: '0' } : { opacity: '1' }}

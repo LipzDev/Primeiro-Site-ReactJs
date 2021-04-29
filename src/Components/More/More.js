@@ -25,7 +25,7 @@ const More = () => {
   }, []);
 
   return (
-    <section className="more">
+    <section className="more" id="section3">
       <div className="container-two">
         <div className="more__item">
           <div className="more__img">
