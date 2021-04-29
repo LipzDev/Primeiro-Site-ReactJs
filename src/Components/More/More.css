@@ -3,7 +3,7 @@
   height: auto;
   width: 100%;
   overflow: hidden;
-  padding: 10rem 0;
+  padding: 0 0 10rem 0;
 }
 
 .more__item {
@@ -68,6 +68,7 @@
 @media screen and (max-width: 900px) {
   .more {
     height: auto;
+    padding: 10rem 0;
   }
   .more__item {
     display: flex;
